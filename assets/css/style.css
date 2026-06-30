@@ -1,0 +1,129 @@
+/* =====================================================
+   DESIGN SYSTEM — Mekar Florist
+   ===================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap");
+
+/* ----- CSS Variables ----- */
+:root {
+  /* Palette */
+  --clr-rose: #c9848a;
+  --clr-rose-light: #e8c4c7;
+  --clr-rose-dark: #a05f65;
+  --clr-sage: #6b8f71;
+  --clr-sage-light: #a8c5ac;
+  --clr-sage-dark: #4a6b50;
+  --clr-ivory: #faf7f2;
+  --clr-sand: #e8ddd0;
+  --clr-sand-dark: #d4c5b2;
+  --clr-charcoal: #1c1c1c;
+  --clr-gray: #6b6b6b;
+  --clr-gray-light: #b0b0b0;
+  --clr-white: #ffffff;
+
+  /* Typography */
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  /* Type scale */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+
+  /* Spacing */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.25rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+  --sp-24: 6rem;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(28, 28, 28, 0.06),
+    0 1px 2px rgba(28, 28, 28, 0.04);
+  --shadow-md: 0 4px 12px rgba(28, 28, 28, 0.08),
+    0 2px 6px rgba(28, 28, 28, 0.06);
+  --shadow-lg: 0 12px 32px rgba(28, 28, 28, 0.1),
+    0 4px 12px rgba(28, 28, 28, 0.06);
+  --shadow-rose: 0 8px 24px rgba(201, 132, 138, 0.25);
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 150ms;
+  --dur-normal: 250ms;
+  --dur-slow: 400ms;
+
+  /* Layout */
+  --container: 1200px;
+  --container-sm: 760px;
+  --navbar-h: 72px;
+}
+
+/* ----- Reset & Base ----- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--clr-charcoal);
+  background: var(--clr-ivory);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
