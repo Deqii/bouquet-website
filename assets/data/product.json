@@ -1,0 +1,42 @@
+[
+  {
+    "id": "MF-001",
+    "name": "Classic Red Rose",
+    "category": "Buket Mawar",
+    "price": 250000,
+    "image": "assets/images/produk/mawar-merah.jpg",
+    "description": "Buket mawar merah premium yang melambangkan cinta abadi. Dirangkai elegan dengan kertas kado premium.",
+    "rating": 5.0,
+    "isBestseller": true
+  },
+  {
+    "id": "MF-002",
+    "name": "Sunny Yellow Tulip",
+    "category": "Buket Tulip",
+    "price": 320000,
+    "image": "assets/images/produk/tulip-kuning.jpg",
+    "description": "Tulip kuning segar impor yang membawa keceriaan. Sangat cocok untuk kado wisuda atau ucapan selamat.",
+    "rating": 4.8,
+    "isBestseller": false
+  },
+  {
+    "id": "MF-003",
+    "name": "Pastel Dream Symphony",
+    "category": "Buket Campuran",
+    "price": 450000,
+    "image": "assets/images/produk/campuran-pastel.jpg",
+    "description": "Perpaduan mawar, lili, dan carnation berwarna pastel yang menenangkan. Memberikan kesan mewah dan lembut.",
+    "rating": 4.9,
+    "isBestseller": true
+  },
+  {
+    "id": "MF-004",
+    "name": "Rustic Wildflower Charm",
+    "category": "Buket Wildflower",
+    "price": 185000,
+    "image": "assets/images/produk/wildflower-rustic.jpg",
+    "description": "Rangkaian bunga liar dengan tema rustic yang estetik. Pilihan tepat untuk gaya indie dan natural.",
+    "rating": 4.7,
+    "isBestseller": false
+  }
+]
