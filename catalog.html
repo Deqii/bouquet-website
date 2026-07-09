@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Katalog DQ Florist — Temukan rangkaian buket bunga mawar, tulip, dan wildflower terbaik di Bandung untuk setiap momen istimewamu."
+    />
+    <meta
+      name="keywords"
+      content="katalog bunga, buket bunga bandung, florist bandung, buket mawar, buket wisuda, harga buket bunga"
+    />
+    <meta name="deqii" content="DQ Florist" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Katalog Produk - DQ Florist Bandung" />
+    <meta
+      property="og:description"
+      content="Lihat koleksi buket segar dari DQ Florist. Pesan mudah via WhatsApp dengan pengiriman ke seluruh Bandung."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/hero/og-catalog.jpg" />
+
+    <title>Katalog Produk - DQ Florist</title>
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Preconnect fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body data-page="katalog">
+    <!-- Navbar injected by components.js -->
+    <div id="navbar-placeholder"></div>
+
+    <main class="container catalog-main">
+      <div class="section-header">
+        <h1 class="section-title">Katalog Bunga</h1>
+        <p class="section-subtitle">
+          Temukan rangkaian bunga sempurna untuk momen spesialmu.
+        </p>
+      </div>
+
+      <!-- Container untuk merender data dari JSON -->
+      <div id="catalog-grid" class="catalog-grid">
+        <p class="loading-text">Memuat koleksi terbaik kami...</p>
+      </div>
+    </main>
+
+    <!-- Footer injected by components.js -->
+    <div id="footer-placeholder"></div>
+
+    <script src="assets/js/components.js"></script>
+    <script src="assets/js/catalog.js"></script>
+  </body>
+</html>

@@ -10,9 +10,9 @@ function renderNavbar() {
 
   const links = [
     { href: "index.html", label: "Beranda", key: "home" },
-    { href: "katalog.html", label: "Katalog", key: "katalog" },
-    { href: "tentang.html", label: "Tentang", key: "tentang" },
-    { href: "kontak.html", label: "Kontak", key: "kontak" },
+    { href: "catalog.html", label: "Katalog", key: "katalog" },
+    { href: "about.html", label: "Tentang", key: "tentang" },
+    { href: "contact.html", label: "Kontak", key: "kontak" },
   ];
 
   const navLinks = links
